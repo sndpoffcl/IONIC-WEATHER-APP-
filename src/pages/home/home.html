@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Weather App</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="home">
+  <ion-grid  > <!-- *ngIf = "weather" -->
+    <ion-row>
+      <ion-col width-50 offset-25>
+        <h2 class="location">City Location</h2>
+        <div class="icon"><img src="" alt="No image yet"></div>
+        <h3 class="desc"> No weather status yet</h3>
+        <h1 class="temp">X&deg; </h1>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col width-100 >
+        <ion-list>
+          <ion-item><strong>Temperature:</strong> X &deg;</ion-item>
+          <ion-item><strong>Relative Humidity:</strong> Y%</ion-item>
+          <ion-item><strong>Other Data:</strong> Z &deg;</ion-item>
+          <ion-item><strong>About: </strong> w &deg;</ion-item>
+        </ion-list>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
